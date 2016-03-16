@@ -2,6 +2,7 @@ package org.example.expression.model;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
+import org.example.expression.model.enums.DayOfWeek;
 
 import java.util.Arrays;
 

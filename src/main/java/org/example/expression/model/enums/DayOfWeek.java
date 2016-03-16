@@ -1,4 +1,4 @@
-package org.example.expression.model;
+package org.example.expression.model.enums;
 
 /**
  * Created by fREDY on 15/03/2016.

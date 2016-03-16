@@ -30,8 +30,4 @@ public class ExpressionParserTest {
 
     }
 
-    @Test
-    public void testWrite() throws Exception {
-
-    }
 }
