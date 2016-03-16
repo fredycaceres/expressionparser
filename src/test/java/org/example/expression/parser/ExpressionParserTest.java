@@ -3,7 +3,6 @@ package org.example.expression.parser;
 import org.example.expression.model.DayPart;
 import org.example.expression.model.TargetingExpression;
 import org.example.expression.model.enums.DayOfWeek;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
