@@ -1,7 +1,7 @@
 grammar Grammar;
 
 @header {
-package com.aol.one.peach.antlr;
+package org.example.expression.antlr;
 }
 
 @rulecatch {
@@ -35,7 +35,7 @@ package com.aol.one.peach.antlr;
 
  /* Parser rules*/
 
-expression: single_expr EOF;
+expression: single_expr* EOF;
 
 single_expr: expr2 (OR expr2)*;
 
@@ -61,7 +61,7 @@ singlelist
 
 list	:	'(' VALUE (',' VALUE)* ')';
 
-VALUE	:	'"' ('A'..'Z' | 'a'..'z' | ' ')+ '"';
+VALUE	:	'"'([a-zA-Z0-9])+'"';
 
 KEY	:	'[' ('A'..'Z' | 'a'..'z' | ' ')+ ']';
 
