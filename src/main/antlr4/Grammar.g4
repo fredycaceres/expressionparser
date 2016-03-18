@@ -35,7 +35,7 @@ package org.example.expression.antlr;
 
  /* Parser rules*/
 
-expression: single_expr* EOF;
+expression: single_expr EOF;
 
 single_expr: expr2 (OR expr2)*;
 
